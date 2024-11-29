@@ -1,0 +1,12 @@
+[package]
+name = "reveng"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+armv4t = "0.1.0"
+bytemuck = "1.20.0"
+num = "0.4.3"
+reveng_proc_macros = { path = "./proc_macros" }
+strum = "0.26.3"
+strum_macros = "0.26.4"
